@@ -1,0 +1,29 @@
+#father-div,
+#message {
+  width: 500px;
+  background-color: lightblue;
+  box-shadow: 10px 10px 10px gray;
+}
+.fat-div,
+.mat-div {
+  display: flex;
+  justify-content: center;
+}
+.fat-div {
+  margin-bottom: -70px;
+}
+.invalid {
+  color: red;
+}
+.invalid::before {
+  content: "✗ ";
+}
+.valid {
+  color: green;
+}
+.valid::before {
+  content: "✓ ";
+}
+#message {
+  display: none;
+}
